@@ -11,7 +11,6 @@ import lxml
 
 """ This is a map finding program that uses BFS(Breadth First Search) algorithm. """
 
-start_time = time.time()
 
 ''' VALIDATING DOCUMENT, PATH, FORMAT AND CONTENT FOR MAP CREATION '''
 
@@ -62,6 +61,8 @@ def content_is_valid(content):
 
 
 doc_input = str(input("Enter document's path for map description parameter: "))
+
+start_time = time.time()
 
 if doc_input == "":
     sys.exit("Error. Parameter unspecified.")
