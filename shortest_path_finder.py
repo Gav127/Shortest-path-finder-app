@@ -169,7 +169,7 @@ def print_maze(maze, ex_time,  path=""):
 
     with open("Task_Solution.json", "w") as outfile:
         json.dump(export, outfile, indent=4)
-        print("Task solution path:", os.path.abspath('Task_Solution.json'))
+        print("\nTask solution path:", os.path.abspath('Task_Solution.json'))
 
 
 def valid(maze, moves):
