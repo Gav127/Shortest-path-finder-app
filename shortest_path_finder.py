@@ -162,7 +162,7 @@ def print_maze(maze, ex_time,  path=""):
                 cols.append(item)
                 map_maze.at[p[0]+1, item] = "+"
 
-    print(map_maze)
+    # print(map_maze) # remove number sign to print the map
     # Task solution export
     export = ({'execution_time_in_ms: ': round(ex_time * 1000),
                "paths": [{"points": [{'row': k, 'col': v} for k, v in zip(rws, cols)]}]})
