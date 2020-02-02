@@ -60,7 +60,7 @@ def content_is_valid(content):
     return rows, cols, start_point, end_point
 
 
-doc_input = str(input("Enter document's path for map description parameter: "))
+doc_input = str(input("Enter document's absolute path for map description parameter: "))
 
 start_time = time.time()
 
